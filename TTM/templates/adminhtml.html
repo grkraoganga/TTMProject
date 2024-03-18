@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SDP Project</title>
+    <link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}" />
+
+</head>
+<body bgcolor="lightgreen">
+<h1 align="center"> SDP Project</h1>
+<a href="{% url 'adminhome' %}">Home</a> &nbsp&nbsp&nbsp&nbsp
+
+{% block body %}
+<p> This is admin Home Page</p>
+{% endblock %}
+</body>
+</html>
